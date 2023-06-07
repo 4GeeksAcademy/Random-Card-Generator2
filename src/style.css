@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  margin: 100px auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+  padding: 15px;
+  font-size: 80px;
+}
+.card-top {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 80px;
+}
+.card-bottom {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 80px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+  font-size: 80px;
+}
